@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/stylesheets/style.css" />
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <main>
+      <h1 class="form-header">Contact Form</h1>
+      <form class="form" action="/form" method="POST">
+        <label for="name">Name: </label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter Your Name"
+        />
+        <label for="email">Email: </label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter Your E-mail"
+        />
+        <label for="username">Username: </label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="Enter Your Username"
+        />
+        <label for="age">Age: </label>
+        <input type="number" name="age" id="age" placeholder="Enter Your Age" />
+        <label for="bio">Bio: </label>
+        <textarea
+          id="bio"
+          name="bio"
+          placeholder="Enter Your Bio"
+          rows="8"
+        ></textarea>
+        <input type="submit" value="Add Contact" class="submit-btn" />
+      </form>
+    </main>
+  </body>
+</html>
